@@ -3,20 +3,22 @@ from .models import Person
 from .forms import PersonForm
 from django.contrib.auth.decorators import login_required
 
-# Create your views here.
+
 
 @login_required
 def persons_list(request):
     persons = Person.objects.all()
     return render(request, 'person.html', {'person': persons})
 
-#@login_required
+
+@login_required
 def person_new(request):
     form = PersonForm(request.POST or None, request.FILES or None)
     if form.is_valid():
         form.save()
         return redirect('person_list')
     return render(request, 'person_form.html', {'form': form})
+
 
 @login_required
 def persons_update(request, id):
@@ -26,6 +28,7 @@ def persons_update(request, id):
         form.save()
         return redirect('person_list')
     return render(request, 'person_form.html', {'form': form})
+
 
 @login_required
 def persons_delete(request, id):
