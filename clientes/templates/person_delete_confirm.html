@@ -1,6 +1,5 @@
-
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -10,11 +9,11 @@
 </head>
 <body>
     //action="{% url 'person_new' %}"
+    <h1>Tem certeza que deseja deletar {{ person.first_name }}?</h1>
+
     <form  method="POST" enctype="multipart/form-data">
         {% csrf_token %}
-        {{ form }}
-
-        <button type="submit">Salvar</button>
+        <button type="submit">Delete</button>
     </form>
 
 </body>
