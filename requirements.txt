@@ -5,3 +5,4 @@ static3==0.7.0
 -r requirements-dev.txt
 gunicorn
 psycopg2
+django
