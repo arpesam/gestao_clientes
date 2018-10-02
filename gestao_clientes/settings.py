@@ -26,7 +26,8 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['gestao-clientes-arpesam.herokuapp.com']
+#ALLOWED_HOSTS = ['gestao-clientes-arpesam.herokuapp.com']
+ALLOWED_HOSTS = ['gclientes.herokuapp.com/']
 #ALLOWED_HOSTS = []
 
 # Application definition
@@ -99,7 +100,7 @@ DATABASES = {
 
 default_dburl = 'sqlite:///' + os.path.join(BASE_DIR, 'db.sqlite3')
 
-DATABASES = { 'default': config('DATABASE_URL', default=default_dburl, cast=dburl), }
+DATABASES = {'default': config('DATABASE_URL', default=default_dburl, cast=dburl)}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
