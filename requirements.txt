@@ -6,4 +6,4 @@
 gunicorn
 psycopg2==2.7.5
 #django
-django-bootstrapform-form=3.3
+django-bootstrapform-form==3.3
