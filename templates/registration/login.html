@@ -1,21 +1,16 @@
+{% extends 'base.html' %}
+{% load bootstrap %}
+{% block title %} Login {% endblock %}
 
-<!doctype html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+{% block main %}
 
-    <form  method="POST" enctype="multipart/form-data">
-        {% csrf_token %}
-        {{ form }}
+    <div style="margin: 100px auto; align: center; height: 350px; width: 300px; border: 2px solid orange; padding: 30px; border-radius: 10px;">
+        <h2>Login</h2>
+        <form  method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form|bootstrap }}
+            <br>
+            <button type="submit" class="btn btn-primary" style="float: right;">Entrar</button>
+    </div>
+{% endblock %}
 
-        <button type="submit">Entrar</button>
-    </form>
-
-</body>
-</html>

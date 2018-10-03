@@ -1,30 +1,39 @@
-<!doctype html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load bootstrap %}
+{% block title %} Administração {% endblock %}
+{% block main %}
+
+    <div class="row">
+        <div class="col-sm">
+
+        </div>
+        <div class="col-sm">
+          <h2>Lista de clientes</h2>
+            <ul class="list-group">
+                {% for persons in person %}
+                        <li class="list-group-item">
+                            <a href="{% url 'persons_update' persons.id %}" ><strong>{{ persons.first_name }}</strong></a>
+                            <a href="{% url 'persons_delete' persons.id %}" style="float: right;">
+                                <i class="fas fa-trash" style="color: red;"></i>
+                            </a>
+                        </li>
+                {% endfor %}
+                </ul>
+                <br>
+                <a href="{% url 'person_new' %}" class="btn btn-primary btn-sm">Novo Cliente</a>
+                <br>
+                <br>
+                <a href="{% url 'logout' %}" class="btn btn-dark btn-sm">Sair</a>
+
+        </div>
+        <div class="col-sm">
+
+        </div>
+    </div>
+{% endblock %}
 
 
-<h1>Lista de pessoas</h1>
-    <ul>
-        {% for persons in person %}
-            <li>
-                <a href="{% url 'persons_update' persons.id %}">{{ persons.first_name }}</a>
-                <a href="{% url 'persons_delete' persons.id %}">Deletar</a>
-            </li>
-        {% endfor %}
-    </ul>
-    <br>
-<a href="{% url 'person_new' %}">Novo Cliente</a>
 
-<br>
-<br>
 
-<a href="{% url 'logout' %}">Sair</a>
-</body>
-</html>
+
+
