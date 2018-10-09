@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e20c733e-af54-4261-819d-ffae971f14a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/clientes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,31 +16,33 @@
     <session id="1725444251">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Procfile" value="2" />
+          <entry key="Procfile" value="3" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="31" />
-          <entry key="py" value="36" />
-          <entry key="txt" value="8" />
+          <entry key="py" value="37" />
+          <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="31" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="36" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -48,7 +52,7 @@
           <entry key="env" value="12" />
           <entry key="gitignore" value="13" />
           <entry key="html" value="1523" />
-          <entry key="py" value="2226" />
+          <entry key="py" value="2234" />
           <entry key="txt" value="79" />
         </counts>
       </usages-collector>
@@ -56,23 +60,40 @@
         <counts>
           <entry key="HTML" value="1523" />
           <entry key="PLAIN_TEXT" value="130" />
-          <entry key="Python" value="2226" />
+          <entry key="Python" value="2234" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clientes/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="161">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <marker date="1538746572703" expanded="true" signature="152:252" ph="..." />
-                <marker date="1538746572703" expanded="true" signature="782:951" ph="..." />
-                <marker date="1538746572703" expanded="true" signature="977:1418" ph="..." />
+                <marker date="1538750180505" expanded="true" signature="155:256" ph="..." />
+                <marker date="1538750180505" expanded="true" signature="787:957" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gestao_clientes/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -89,17 +110,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements-dev.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="31">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/runtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -107,8 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gestao_clientes/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="158" column="1" lean-forward="true" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
+            <state relative-caret-position="2652">
+              <caret line="158" column="1" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
               <folding>
                 <element signature="e#316#325#0" expanded="true" />
               </folding>
@@ -162,12 +192,12 @@
         <option value="$PROJECT_DIR$/clientes/templates/person.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/home/admin.py" />
-        <option value="$PROJECT_DIR$/clientes/models.py" />
         <option value="$PROJECT_DIR$/clientes/admin.py" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/gestao_clientes/settings.py" />
         <option value="$PROJECT_DIR$/requirements-dev.txt" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/clientes/models.py" />
       </list>
     </option>
   </component>
@@ -183,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,12 +223,18 @@
             <path>
               <item name="gestao_clientes" type="b2602c69:ProjectViewProjectNode" />
               <item name="gestao_clientes" type="462c0819:PsiDirectoryNode" />
+              <item name="clientes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gestao_clientes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gestao_clientes" type="462c0819:PsiDirectoryNode" />
               <item name="gestao_clientes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,12 +277,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14285715" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.39344263" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.49016392" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -329,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gestao_clientes/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -382,10 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -393,10 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -435,15 +454,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientes/models.py">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-          <folding>
-            <marker date="1538746572703" expanded="true" signature="152:252" ph="..." />
-            <marker date="1538746572703" expanded="true" signature="782:951" ph="..." />
-            <marker date="1538746572703" expanded="true" signature="977:1418" ph="..." />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestao_clientes/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -454,17 +475,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="40" lean-forward="true" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestao_clientes/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="158" column="1" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
+          <folding>
+            <element signature="e#316#325#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -475,27 +506,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gestao_clientes/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="158" column="1" lean-forward="true" selection-start-line="158" selection-start-column="1" selection-end-line="158" selection-end-column="1" />
-          <folding>
-            <element signature="e#316#325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements-dev.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="31">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/clientes/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="161">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <marker date="1538750180505" expanded="true" signature="155:256" ph="..." />
+            <marker date="1538750180505" expanded="true" signature="787:957" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

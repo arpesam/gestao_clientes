@@ -1,12 +1,15 @@
 # Create your models here.
-#models sao classes que definem o funcionamento dos meu clientes
+# models sao classes que definem o funcionamento dos meu clientes
+
 from django.db import models
+
 
 class Documento(models.Model):
     num_doc = models.CharField(max_length=50)
 
     def __str__(self):
         return self.num_doc
+
 
 class Person(models.Model):
     first_name = models.CharField(max_length=30)
@@ -20,12 +23,14 @@ class Person(models.Model):
     def __str__(self):
         return self.first_name + ' ' + self.last_name
 
+
 class Produto(models.Model):
     descricao = models.CharField(max_length=100)
     preco = models.DecimalField(max_digits=5, decimal_places=2)
 
     def __str__(self):
         return self.descricao
+
 
 class Venda(models.Model):
     numero = models.CharField(max_length=7)
